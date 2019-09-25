@@ -1,0 +1,15 @@
+{
+  "name": "earth-mom",
+  "version": "1.0.0",
+  "description": "The project is for our earth mom",
+  "main": "index.js",
+  "repository": "https://github.com/Xiaoping-Li/Earth-Mom.git",
+  "author": "Xiaoping-Li <narci2008@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1"
+  }
+}

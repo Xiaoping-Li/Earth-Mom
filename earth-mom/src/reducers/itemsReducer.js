@@ -3,10 +3,12 @@ import {
   TAG_ITEM,
 } from '../actions/types';
 
-const itemsReducer = (items = [], action) => {
+import { itemsList } from '../data/itemsList';
+
+const itemsReducer = (items = itemsList, action) => {
   switch(action.type) {
     case GET_ITEMS:
-      return action.payload.data;
+      return action.payload;
     case TAG_ITEM:
       return items;
     default:

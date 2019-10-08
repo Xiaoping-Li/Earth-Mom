@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const SortItemSchema = new Schema({
-  name: {
+  class: {
     type: String,
     lowercase: true,
   }, 
